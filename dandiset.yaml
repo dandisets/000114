@@ -24,7 +24,8 @@ identifier: DANDI:000114
 keywords: []
 license:
 - spdx:CC0-1.0
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000114/versions/draft/assets/
 name: Single-unit recordings in mouse PVN
 protocol: []
 relatedResource: []
