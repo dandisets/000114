@@ -2,7 +2,10 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000114
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001930
+  name: paraventricular nucleus of hypothalamus
+  schemaKey: Anatomy
 access: []
 acknowledgement: We thank G. Buzsaki, E. Glennon, V. Grinevich, B. Hangya, K. Kuchibhotla,
   M. A. Long, J. Minder, J. K. Schiavo, R. Tremblay, R. W. Tsien and D. Vallentin
@@ -269,7 +272,13 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000114/versions/draft/assets/
 name: Oxytocin neurons enable social transmission of maternal behaviour
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: https://doi.org/10.1038/s41586-021-03814-7
+  name: Oxytocin neurons enable social transmission of maternal behaviour
+  relation: dcite:IsDescribedBy
+  repository: Nature
+  schemaKey: Resource
+  url: https://www.nature.com/articles/s41586-021-03814-7
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
