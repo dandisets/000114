@@ -24,9 +24,13 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 4803574665
-  numberOfFiles: 1
-  numberOfSubjects: 1
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 17437361925
+  numberOfFiles: 2
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -35,6 +39,8 @@ assetsSummary:
   variableMeasured:
   - ElectricalSeries
   - ElectrodeGroup
+  - Units
+  - ProcessingModule
 citation: Carcea, Ioana; Caraballo, Naomi López; Marlin, Bianca J.; Ooyama, Rumi;
   Riceberg, Justin S.; Mendoza Navarro, Joyce M.; Opendak, Maya; Diaz, Veronica E.;
   Schuster, Luisa; Alvarado Torres, Maria I.; Lethin, Harper; Ramos, Daniel; Minder,
