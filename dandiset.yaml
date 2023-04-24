@@ -4,6 +4,13 @@
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
 about: []
 access: []
+acknowledgement: We thank G. Buzsaki, E. Glennon, V. Grinevich, B. Hangya, K. Kuchibhotla,
+  M. A. Long, J. Minder, J. K. Schiavo, R. Tremblay, R. W. Tsien and D. Vallentin
+  for comments, discussions and technical assistance; and C. A. Loomis and NYU School
+  of Medicine Histology Core for assistance with anatomical studies. Oxytocin-IRES-Cre
+  mice were obtained from The Jackson Laboratory. Oxytocin receptor knockout mice
+  were obtained from R. W. Tsien. S. E. Ross created artwork in Figs. 1a, 3e, 4d,
+  g, j, k, Extended Data Fig. 9e.
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -28,26 +35,233 @@ assetsSummary:
   variableMeasured:
   - ElectricalSeries
   - ElectrodeGroup
-citation: Single-unit recordings in mouse PVN (2023). (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000114/draft
+citation: Carcea, Ioana; Caraballo, Naomi López; Marlin, Bianca J.; Ooyama, Rumi;
+  Riceberg, Justin S.; Mendoza Navarro, Joyce M.; Opendak, Maya; Diaz, Veronica E.;
+  Schuster, Luisa; Alvarado Torres, Maria I.; Lethin, Harper; Ramos, Daniel; Minder,
+  Jessica; Mendoza, Sebastian L.; Bair-Marshall, Chloe J.; Samadjopoulos, Grace H.;
+  Hidema, Shizu; Falkner, Annegret; Lin, Dayu; Mar, Adam; Wadghiri, Youssef Z.; Nishimori,
+  Katsuhiko; Kikusui, Takefumi; Mogi, Kazutaka; Sullivan, Regina M.; Froemke, Robert
+  C. (2023) Oxytocin neurons enable social transmission of maternal behaviour (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000114/draft
 contributor:
 - affiliation: []
-  email: carcea.ioana@gmail.com
-  includeInCitation: false
-  name: Ioana Carcea
-  roleName: []
+  identifier: 0000-0002-4459-9321
+  includeInCitation: true
+  name: Carcea, Ioana
+  roleName:
+  - dcite:Author
   schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Caraballo, Naomi López
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Marlin, Bianca J.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Ooyama, Rumi
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Riceberg, Justin S.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mendoza Navarro, Joyce M.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Opendak, Maya
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Diaz, Veronica E.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Schuster, Luisa
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Alvarado Torres, Maria I.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Lethin, Harper
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Ramos, Daniel
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Minder, Jessica
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mendoza, Sebastian L.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Bair-Marshall, Chloe J.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Samadjopoulos, Grace H.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Hidema, Shizu
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0001-9756-7887
+  includeInCitation: true
+  name: Falkner, Annegret
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0003-2006-0791
+  includeInCitation: true
+  name: Lin, Dayu
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mar, Adam
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Wadghiri, Youssef Z.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Nishimori, Katsuhiko
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Kikusui, Takefumi
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mogi, Kazutaka
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Sullivan, Regina M.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-1230-6811
+  includeInCitation: true
+  name: Froemke, Robert C.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- awardNumber: HD088411
+  contactPoint: []
+  identifier: https://ror.org/04byxyr05
+  includeInCitation: false
+  name: Eunice Kennedy Shriver National Institute of Child Health and Human Development
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: DC12557
+  contactPoint: []
+  identifier: https://ror.org/04mhx6838
+  includeInCitation: false
+  name: National Institute on Deafness and Other Communication Disorders
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: K99/R00 MH106744, F32 MH112232, T32 MH019524
+  contactPoint: []
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  identifier: https://ror.org/006w34k90
+  includeInCitation: false
+  name: Howard Hughes Medical Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2021-06-28T15:06:36.176036+00:00'
-description: electrophysiology data from Carcea et al 2021
+description: Maternal care, including by non-biological parents, is important for
+  offspring survival. Oxytocin which is released by the hypothalamic paraventricular
+  nucleus (PVN), is a critical maternal hormone. In mice, oxytocin enables neuroplasticity
+  in the auditory cortex for maternal recognition of pup distress. However, it is
+  unclear how initial parental experience promotes hypothalamic signalling and cortical
+  plasticity for reliable maternal care. Here we continuously monitored the behaviour
+  of female virgin mice co-housed with an experienced mother and litter. This documentary
+  approach was synchronized with neural recordings from the virgin PVN, including
+  oxytocin neurons. These cells were activated as virgins were enlisted in maternal
+  care by experienced mothers, who shepherded virgins into the nest and demonstrated
+  pup retrieval. Virgins visually observed maternal retrieval, which activated PVN
+  oxytocin neurons and promoted alloparenting. Thus rodents can acquire maternal behaviour
+  by social transmission, providing a mechanism for adapting the brains of adult caregivers
+  to infant needs via endogenous oxytocin.
 ethicsApproval: []
 id: DANDI:000114/draft
 identifier: DANDI:000114
-keywords: []
+keywords:
+- oxytocin
+- alloparenting
+- maternal behavior
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000114/versions/draft/assets/
-name: Single-unit recordings in mouse PVN
+name: Oxytocin neurons enable social transmission of maternal behaviour
 protocol: []
 relatedResource: []
 repository: https://dandiarchive.org
