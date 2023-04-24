@@ -31,9 +31,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 148043203065
-  numberOfFiles: 6
-  numberOfSubjects: 3
+  numberOfBytes: 159503332711
+  numberOfFiles: 7
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
