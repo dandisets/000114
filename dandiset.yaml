@@ -5,10 +5,30 @@
 about: []
 access: []
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 4803574665
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: Single-unit recordings in mouse PVN (2022). (Version draft) [Data set].
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectricalSeries
+  - ElectrodeGroup
+citation: Single-unit recordings in mouse PVN (2023). (Version draft) [Data set].
   DANDI archive. https://dandiarchive.org/dandiset/000114/draft
 contributor:
 - affiliation: []
@@ -30,7 +50,7 @@ manifestLocation:
 name: Single-unit recordings in mouse PVN
 protocol: []
 relatedResource: []
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
