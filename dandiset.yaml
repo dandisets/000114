@@ -245,6 +245,16 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- affiliation:
+  - identifier: https://ror.org/01d74sk53
+    name: CatalystNeuro
+    schemaKey: Affiliation
+  identifier: 0000-0001-5725-6910
+  includeInCitation: false
+  name: Dichter, Benjamin
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
 dateCreated: '2021-06-28T15:06:36.176036+00:00'
 description: Maternal care, including by non-biological parents, is important for
   offspring survival. Oxytocin which is released by the hypothalamic paraventricular
