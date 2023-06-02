@@ -256,6 +256,7 @@ contributor:
   - dcite:DataCurator
   schemaKey: Person
 dateCreated: '2021-06-28T15:06:36.176036+00:00'
+datePublished: '2023-06-02T16:43:16.440150+00:00'
 description: Maternal care, including by non-biological parents, is important for
   offspring survival. Oxytocin which is released by the hypothalamic paraventricular
   nucleus (PVN), is a critical maternal hormone. In mice, oxytocin enables neuroplasticity
@@ -283,6 +284,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000114/versions/draft/assets/
 name: Oxytocin neurons enable social transmission of maternal behaviour
 protocol: []
+publishedBy:
+  endDate: '2023-06-02T16:43:16.440150+00:00'
+  id: urn:uuid:5d399222-6cb4-4387-b936-5d0aa2ae2c73
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-06-02T16:43:16.440150+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:fa66c29c-8808-4410-969a-604a8c697dc5
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/s41586-021-03814-7
   name: Oxytocin neurons enable social transmission of maternal behaviour
