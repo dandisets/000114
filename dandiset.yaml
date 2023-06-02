@@ -51,7 +51,7 @@ citation: Carcea, Ioana; Caraballo, Naomi López; Marlin, Bianca J.; Ooyama, Rum
   Hidema, Shizu; Falkner, Annegret; Lin, Dayu; Mar, Adam; Wadghiri, Youssef Z.; Nishimori,
   Katsuhiko; Kikusui, Takefumi; Mogi, Kazutaka; Sullivan, Regina M.; Froemke, Robert
   C. (2023) Oxytocin neurons enable social transmission of maternal behaviour (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000114/draft
+  0.230602.1643) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000114/0.230602.1643
 contributor:
 - affiliation: []
   identifier: 0000-0002-4459-9321
@@ -271,8 +271,9 @@ description: Maternal care, including by non-biological parents, is important fo
   oxytocin neurons and promoted alloparenting. Thus rodents can acquire maternal behaviour
   by social transmission, providing a mechanism for adapting the brains of adult caregivers
   to infant needs via endogenous oxytocin.
+doi: 10.48324/dandi.000114/0.230602.1643
 ethicsApproval: []
-id: DANDI:000114/draft
+id: DANDI:000114/0.230602.1643
 identifier: DANDI:000114
 keywords:
 - oxytocin
@@ -281,7 +282,7 @@ keywords:
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000114/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000114/0.230602.1643/assets.yaml
 name: Oxytocin neurons enable social transmission of maternal behaviour
 protocol: []
 publishedBy:
@@ -307,6 +308,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000114/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000114/0.230602.1643
+version: 0.230602.1643
 wasGeneratedBy: []
