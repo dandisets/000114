@@ -27,12 +27,12 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 387202184927
-  numberOfFiles: 30
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 306892204866
+  numberOfFiles: 28
   numberOfSubjects: 11
   schemaKey: AssetsSummary
   species:
@@ -41,8 +41,8 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
-  - ElectricalSeries
   - ElectrodeGroup
+  - ElectricalSeries
   - Units
 citation: Carcea, Ioana; Caraballo, Naomi López; Marlin, Bianca J.; Ooyama, Rumi;
   Riceberg, Justin S.; Mendoza Navarro, Joyce M.; Opendak, Maya; Diaz, Veronica E.;
