@@ -6,7 +6,9 @@ about:
 - identifier: http://purl.obolibrary.org/obo/UBERON_0001930
   name: paraventricular nucleus of hypothalamus
   schemaKey: Anatomy
-access: []
+access:
+- schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 acknowledgement: We thank G. Buzsaki, E. Glennon, V. Grinevich, B. Hangya, K. Kuchibhotla,
   M. A. Long, J. Minder, J. K. Schiavo, R. Tremblay, R. W. Tsien and D. Vallentin
   for comments, discussions and technical assistance; and C. A. Loomis and NYU School
@@ -50,7 +52,7 @@ citation: Carcea, Ioana; Caraballo, Naomi López; Marlin, Bianca J.; Ooyama, Rum
   Jessica; Mendoza, Sebastian L.; Bair-Marshall, Chloe J.; Samadjopoulos, Grace H.;
   Hidema, Shizu; Falkner, Annegret; Lin, Dayu; Mar, Adam; Wadghiri, Youssef Z.; Nishimori,
   Katsuhiko; Kikusui, Takefumi; Mogi, Kazutaka; Sullivan, Regina M.; Froemke, Robert
-  C. (2023) Oxytocin neurons enable social transmission of maternal behaviour (Version
+  C. (2024) Oxytocin neurons enable social transmission of maternal behaviour (Version
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000114/draft
 contributor:
 - affiliation: []
